@@ -90,7 +90,7 @@ public class EncryUtils {
      * 加密方法
      * @param needEncryptWord　需要加密的字符串
      * @param alias　加密秘钥
-     * @return
+     * @return 
      */
     public String encryptString(String needEncryptWord, String alias) {
         if(!"".equals(alias)&&!"".equals(needEncryptWord)){
